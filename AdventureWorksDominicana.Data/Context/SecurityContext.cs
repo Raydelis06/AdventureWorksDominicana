@@ -18,7 +18,7 @@ public class SecurityContext : IdentityDbContext<AspNetUser>
 		if (!optionsBuilder.IsConfigured)
 		{
 			
-			optionsBuilder.UseSqlServer("workstation id=AdventureWorksDb.mssql.somee.com;packet size=4096;user id=AdenawellTorres_SQLLogin_1;pwd=tc54sf6glk;data source=AdventureWorksDb.mssql.somee.com;persist security info=False;initial catalog=AdventureWorksDb;TrustServerCertificate=True");
+			optionsBuilder.UseSqlServer("workstation id=AdventureWorksDomDb.mssql.somee.com;packet size=4096;user id=Apl1ProyFin_SQLLogin_1;pwd=puxthi9hug;data source=AdventureWorksDomDb.mssql.somee.com;persist security info=False;initial catalog=AdventureWorksDomDb;TrustServerCertificate=True");
 		}
 	}
 
