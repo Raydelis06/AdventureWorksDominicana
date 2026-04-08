@@ -1,4 +1,6 @@
 ﻿@page "/BillOfMaterial/Create"
+@attribute [Authorize(Roles = "Admin")]
+
 @rendermode InteractiveServer
 @inject BillOfMaterialService BOMService
 @inject ProductService ProductService

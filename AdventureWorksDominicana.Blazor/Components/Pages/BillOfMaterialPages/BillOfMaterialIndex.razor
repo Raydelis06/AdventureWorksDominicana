@@ -1,6 +1,9 @@
 ﻿@page "/BillOfMaterial/Index"
+@attribute [Authorize(Roles = "Admin")]
 @rendermode InteractiveServer
 @inject BillOfMaterialService BOMService
+
+
 
 <PageTitle>Bill of Materials Index</PageTitle>
 

@@ -1,4 +1,6 @@
 ﻿@page "/ProductDescription/Create"
+@attribute [Authorize(Roles = "Admin")]
+
 @rendermode InteractiveServer
 @inject ProductDescriptionService productDescriptionService
 @inject ToastService toastService
